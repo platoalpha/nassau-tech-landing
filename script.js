@@ -5,7 +5,7 @@ const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
 
-const confDate = '12/10/2021';
+const confDate = '12/11/2021';
 const countDown = new Date(confDate).getTime();
 
 const x = setInterval(function () {
